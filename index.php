@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -10,57 +11,27 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-               
+
 <body class="body1">
-   
     <header class="hero">
         <div class="textos-hero">
-            <div class ="menu1"> <!-- start nav -->
-                <nav id="menu">
-                 <!-- start menu -->
-                 <ul>
-                  <li><a href="#quienessomos"> <font color="#24fe24">¿Quienes somos?</font></a></li>
-                  <li><a href="#">Enlace 2</a>  
-                 <!-- start menu desplegable -->
-                  <ul>
-                  <li><a href="#">Enlace 2.1</a></li>
-                  <li><a href="#">Enlace 2.2</a></li>
-                  <li><a href="#">Enlace 2.3</a></li>
-                  </ul>
-                 <!-- end menu desplegable -->
-                  </li>
-                  <li><a href="#">Enlace 3</a></li>
-                  <li><a href="#Galeria">Galeria </a></li>
-                  <li><a href="#contacto">Contactenos</a></li>
-                 </ul>
-                 <!-- end menu -->
-                 </nav>
-                 <!-- end nav --></div>
             <h1>Bienvenido a Asorelit</h1>
             <p>Centro de reciclaje</p>
-            
+            <a href="#contacto">Contactatenos</a>
         </div>
-
-                 
         <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
                 <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
                     style="stroke: none; fill: #fff;"></path>
             </svg></div>
-            
-              
-                
-                </head>
-                <body>
-    
     </header>
 
-<footer id="quienessomos"> 
+
     <section class="wave-contenedor website">
         <img src="img/ilustracion1.png" alt="">
         <div class="contenedor-textos-main">
-            <h2 class="titulo left"><font color ="black">¿Quienes somos?</font></h2>
-            <p class="parrafo"><font color ="black">informacion de lo que es y de que  trata la empresa </font></p>
+            <h2 class="titulo left">Titulo</h2>
+            <p class="parrafo">Aqui cualquier informacion </p>
             <a href="" class="cta">Conozca mas</a>
         </div>
     </section>
@@ -71,7 +42,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </section>
-</footer>
+
     <section class="cards contenedor">
         <h2 class="titulo">Nuestros servicios</h2>
         <div class="content-cards">
@@ -95,7 +66,7 @@
             </article>
         </div>
     </section>
-<footer id="Galeria">
+
     <section class="galeria">
         <div class="contenedor">
             <h2 class="titulo">Nuestro trabajo</h2>
@@ -109,7 +80,6 @@
             </article>
         </div>
     </section>
-</footer>
 
     <section class="info-last">
 
@@ -133,25 +103,26 @@
         <div class="contenedor">
             <h2 class="titulo">Contact us</h2>
             <body class="body2">
-                <form action="mailto:marpe0715@gmail.com" method="post" name="form1">
-                    <div class="grupo" >
-                        <input type="text" name="Nombre" id="" required><span class="barra"></span>
-                        <label>Nombre</label>
-                    </div>
-                    <div class="grupo">
-                        <input type="email" name="Email" id="" required><span class="barra"></span>
-                        <label>Email</label>
-                    </div>
-                    <div class="grupo">
-                        <input type="number" name="Edad" id="" required><span class="barra"></span>
-                        <label>Edad</label>
-                    </div>
-                    <div class="grupo">
-                        <textarea name="Mensaje" id="" rows="3" required></textarea><span class="barra"></span>
-                        <label>Mensaje</label>
-                    </div>
-                    <button type="submit">Enviar</button>
-                    
+                <form action="">
+                    <div class="form">
+                        <h1>Float Labels</h1>
+                        <div class="grupo" >
+                            <input type="text" name="" id="" required><span class="barra"></span>
+                            <label>Nombre</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="email" name="" id="" required><span class="barra"></span>
+                            <label>Email</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="number" name="" id="" required><span class="barra"></span>
+                            <label>Edad</label>
+                        </div>
+                        <div class="grupo">
+                            <textarea name="" id="" rows="3" required></textarea><span class="barra"></span>
+                            <label>Mensaje</label>
+                        </div>
+                        <button type="submit">Enviar</button>
                         <img class="aso" src="img/imagen1.png">
                     </div>
                 </form>
@@ -160,12 +131,13 @@
             
         </div>
     </footer>
-    
 
-    
+
+
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
 </body>
 
-
+</footer>
 
 
 </html>

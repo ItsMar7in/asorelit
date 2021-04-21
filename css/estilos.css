@@ -10,6 +10,7 @@ html{
 
 .body1{
     font-family: 'Raleway', sans-serif;
+    background:white;
 }
 
 .hero{
@@ -56,6 +57,10 @@ html{
     bottom: 0;
     left: 0;
     width: 100%;
+}
+#quienessomos{
+    background-color: white;
+    
 }
 
 /* Estilos generales */
@@ -350,6 +355,7 @@ input[type="submit"]:hover{
     }
 }
 /*contactenos*/
+
 :root{
     --colorTextos: #49454567;
 }
@@ -503,6 +509,124 @@ button{
 .aso{
     position: relative;
     bottom: 10px;
-    top: -700px;
+    top:-500px;
     left: 450px;
 }
+.comentario{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin:auto ;
+    margin-top: 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    color: #24fe24;
+    text-decoration: none;
+}
+
+ul {
+   list-style-type: none;
+}
+
+body {
+   font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+   background: #dee1e3;
+}
+/* menu */
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+   background-color: white;
+    
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    background-color:none;
+    width: 225px;
+    height: 45px;
+    
+   }
+   
+   /* enlaces del menu */
+   
+   #menu ul a {
+    display:block;
+   
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family: 'Antonio', sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    background-color: white;
+    border:#000 2px solid;
+   
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+    color:white;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    background:none;
+   
+   }
+   /* menu desplegable */
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:none;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:150px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   
+   }
+   .menu1{
+      position: relative;
+      top:-110px;
+      
+   }    
+   
