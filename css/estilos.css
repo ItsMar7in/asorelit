@@ -565,15 +565,15 @@ body {
     display:block;
    
     text-decoration:none;
-    font-weight:400;
-    font-size:15px;
+    font-weight:600;
+    font-size: 15px;
     padding:10px;
     font-family: 'Antonio', sans-serif;
     text-transform:uppercase;
     letter-spacing:1px;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+  
     background-color: white;
-    border:#000 2px solid;
+    border: #598E16 2px solid;
    
    }
    
@@ -629,4 +629,26 @@ body {
       top:-110px;
       
    }    
-   
+
+
+   .redes{
+       width: 1310px;
+       height: 200px;
+       background-color:    #535078;
+       margin-left: 20px;
+       margin-right: 15px;
+
+   }
+   .ult{
+       height: 500px;
+   }
+   .redes a{
+       position: relative;
+       top: 35px;
+       left: 70px;
+   }
+   .a1{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
