@@ -642,13 +642,52 @@ body {
    .ult{
        height: 500px;
    }
-   .redes a{
+   .lugar{
        position: relative;
        top: 35px;
        left: 70px;
    }
+   .telefono{
+    position: relative;
+    top:16px ;
+    left:450px;
+     
+    }
    .a1{
     position: relative;
-    top: 50px;
+    top: 40px;
     left: 50px;
+   }    
+   .TLF{
+       position: relative;
+       top: 20px;
+      left: 430px;
+   }
+   .TLF2{
+    position: relative;
+    top: 30px;
+   left: 430px;
+}
+.correo{
+    position: relative;
+    top :-5px;
+    left: 800px;
+}
+.c1{
+    position:relative;
+    top:-10px;
+    left: 800px;
+}
+.face{
+    width: 50px;
+    height: 25px;
+    position: relative;
+    top:-35px;
+    left:1050px;
+
+}
+.red{
+    position: relative;
+    top:-126px;
+    left:1050px;
 }
